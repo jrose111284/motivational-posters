@@ -3,7 +3,7 @@
 <head>
   <link href="/css/application.css" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="http://google.com/jsapi"></script>
-  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
   <script src="/javascript/support.js"></script>
   <script src="/javascript/application.js"></script>
 
@@ -21,6 +21,46 @@
     <div id="branding"></div>
   </select>
 
+  <section id="add-text">
+    <h2>Step 2. Add Text</h2>
+    <input id="text" type="text" value="Curiosity is one of the great secrets of happiness">
+  </section>
 
-</body>
+  <section id="style-image">
+    <h2>Step 3. Style it!</h2>
+    <div id="workspace">
+      <p id="caption"></p>
+    </div>
+    <div id="controls">
+      left: <input type="number" value="10" id="left">
+      top: <input type="number" value="10" id="top">
+      width: <input type="number" value="10" id="width">
+      size: <input type="number" value="10" id="size">
+      color: <select id="colour">
+              <option>red</option>
+              <option>green</option>
+              <option>white</option>
+              <option>black</option>
+              <option>blue</option>
+              <option>yellow</option>
+              <option>gray</option>
+              <option>orange</option>
+             </select>
+    </div>
+    <div id="twitter">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-text="&quot;I built a 'Motivational Posters' page today here at @makersacademy!&quot;.">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+  </section>
+  <footer>
+    <a href="http://www.makersacademy.com/"><img src="http://www.makersacademy.com/images/logo.png"></a>
+  <div>
+    I built this page during my first day at
+    <a href="http://www.makersacademy.com">Makers Academy, a highly selective 12 week coding course in London</a>.
+  </div>
+  <div>
+    This page uses Google Image search, Ruby, Sinatra, Javascript, jQuery, HTML and CSS.
+  </div>
+  </footer>
+  </body>
 </html>
